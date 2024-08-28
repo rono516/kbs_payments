@@ -1,0 +1,37 @@
+{
+    "data": {
+      "id": "3413OOYS",
+      "type": "members",
+      "attributes": {
+        "created_at": "2024-07-06T17:01:36.000+00:00",
+        "updated_at": "2024-07-06T17:01:36.000+00:00",
+        "first_name": "Collins",
+        "middle_name": "Kiplagat",
+        "last_name": "Rono",
+        "email": "ronocollins2000@gmail.com",
+        "phone_number": "0792009556",
+        "eligible_amount": null,
+        "state": "PENDING_APPROVAL"
+      },
+      "relationships": {
+        "eligibility": {
+          "meta": {
+            "included": false
+          }
+        },
+        "id_documents": {
+          "meta": {
+            "included": false
+          }
+        },
+        "custom_information": {
+          "meta": {
+            "included": false
+          }
+        }
+      }
+    },
+    "jsonapi": {
+      "version": "1.0"
+    }
+  }

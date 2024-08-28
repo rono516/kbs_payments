@@ -1,0 +1,20 @@
+.wave {
+    position: relative;
+    width: 100%;
+    height: 150px; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Change background color if needed */
+    overflow: hidden;
+}
+
+.wave::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 500px 100%; /* Adjust width based on number of segments */
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iMTAwIiB2aWVwbortPSIwcHggMHB4Ij48cGF0aCBkPSJNMCAwaDI0djg0aDI0djE2aDI0djg0aDI0djE2aDI0djg0aDI0djE2aDI0djg0aDI0djE2aDI0djg0aDI0djE2aDI0djg0aDI0djE2aDI0djg0aDI0djE2aDI0djg0aDI0djE2aDI0djg0djEwSDEweiI+PC9zdmc+");
+}

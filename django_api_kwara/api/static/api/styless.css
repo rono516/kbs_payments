@@ -1,0 +1,20 @@
+
+body{
+    /* background-color: blue; */
+    /* text-align: center; */
+    font-family: "Roboto Mono", monospace;
+
+}
+.main-view{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40vh;
+    /* display: flex; */
+    /* text-align: center; */
+    /* height: 50vh; */
+    /* width: 50%; */
+    /* margin-right: auto;
+    margin-left: auto; */
+}
